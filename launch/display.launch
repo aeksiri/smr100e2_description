@@ -6,7 +6,7 @@
     default="True" />
   <param
     name="robot_description"
-    textfile="$(find sdr100_description)/urdf/sdr100_description.urdf" />
+    textfile="$(find smr100e2_description)/urdf/smr100e2_description.urdf" />
   <param
     name="use_gui"
     value="$(arg gui)" />
@@ -22,5 +22,5 @@
     name="rviz"
     pkg="rviz"
     type="rviz"
-    args="-d $(find sdr100_description)/rviz/display.rviz" />
+    args="-d $(find smr100e2_description)/rviz/display.rviz" />
 </launch>
